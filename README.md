@@ -13,6 +13,8 @@ This is an initial code release. **部分文件仍在整理中，后续会持续
 - `evaluate_flowpure_standardized_val_drawio_reuse.py` — run standardized single-experiment detector and image-quality evaluation.
 - `evaluate_flowpure_multi_reuse_drawio_no_intersection.py` — run multi-experiment evaluation and export CSV/JSON/draw.io summaries.
 
+The committed experiment data are the tabular/JSON result summaries in the repository root and in `eval_ablation_three/`, `eval_flowpure_multi/`, and `eval_standardized_basic/`. Figures, `.drawio` sources, generated images, checkpoints, and raw datasets are intentionally excluded. Machine-specific paths in the released summaries are represented by `<FLOWPURE_ROOT>`.
+
 ## Environment
 
 The scripts are intended for a CUDA-enabled Python environment. Install the packages needed by the workflow you use; a starting point is:

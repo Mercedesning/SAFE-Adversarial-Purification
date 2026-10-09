@@ -5,8 +5,7 @@ __pycache__/
 venv/
 env/
 
-# Experiment outputs and downloaded checkpoints
-eval_*/
+# Downloaded checkpoints
 fm_*_out/
 *_output/
 *.pt
@@ -28,5 +27,3 @@ outputs/
 *.png
 *.jpg
 *.jpeg
-*.csv
-*.json
