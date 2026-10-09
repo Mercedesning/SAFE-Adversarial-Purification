@@ -23,6 +23,7 @@ outputs/
 
 # Figures, temporary office backups, and evaluation exports
 .$*
+drawio_xml/
 *.drawio
 *.png
 *.jpg
