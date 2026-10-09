@@ -1,0 +1,23 @@
+# Python caches and local environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Experiment outputs and downloaded checkpoints
+eval_*/
+fm_*_out/
+*_output/
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+
+# Local datasets and generated artifacts
+datasets/
+data/
+outputs/
+*.npy
+*.npz
+*.log

@@ -1,0 +1,13 @@
+numpy
+pillow
+pyyaml
+scipy
+scikit-image
+opencv-python
+tqdm
+torch
+torchvision
+torchcfm
+ultralytics
+torchattacks
+pycocotools
