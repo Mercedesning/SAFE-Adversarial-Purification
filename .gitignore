@@ -21,3 +21,12 @@ outputs/
 *.npy
 *.npz
 *.log
+
+# Figures, temporary office backups, and evaluation exports
+.$*
+*.drawio
+*.png
+*.jpg
+*.jpeg
+*.csv
+*.json
